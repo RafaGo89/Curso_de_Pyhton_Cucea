@@ -19,5 +19,5 @@
 
     --Esto que escribí lo hago desde internet
     
-    https://devhints.io/git-tricks
+    --Enlace con algunos comandos de git: https://devhints.io/git-tricks
     
