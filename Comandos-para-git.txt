@@ -17,4 +17,5 @@
     12- git pull origin nombre de la rama (traer el código desde internet)
     13- git push origin nombre de la rama (mandar código a internet)
 
+    --Esto que escribí lo hago desde internet
     
