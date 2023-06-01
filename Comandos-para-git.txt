@@ -4,7 +4,7 @@
     2- git add filename (agregar archivo al área de visualización)
     3- git add . (añade todos los archivos de la carpeta en el área de visualización)
     4- git commit -am "comentario" (con esto agregas los archivos en área de 
-       visualización al repositiorio)
+       visualización al repositiorio)   --------------->¡hacer esto siempre que se haga un cambio!
     5- git branch nombre de la rama (creamos una rama)
     6- git checkout nombre de la rama (cambiamos de rama)
     7- git merge nombre de la rama (unir la sub-rama a la rama principal, para esto
