@@ -1,0 +1,20 @@
+*Algunos comandos básicos para el uso de Git son:
+
+    1- git init (crear un repositorio)
+    2- git add filename (agregar archivo al área de visualización)
+    3- git add . (añade todos los archivos de la carpeta en el área de visualización)
+    4- git commit -am "comentario" (con esto agregas los archivos en área de 
+       visualización al repositiorio)
+    5- git branch nombre de la rama (creamos una rama)
+    6- git checkout nombre de la rama (cambiamos de rama)
+    7- git merge nombre de la rama (unir la sub-rama a la rama principal, para esto
+       debemos estar en la rama principal)
+    8- git diff (ver cambios de versiones entre las ramas)
+    9- git log (ver los cambios realizados)
+    10- git status (ver el estado de los archivos)
+    11- git clone https://github.com/RafaGo89/Curso-de-Pyhton-Cucea.git (clonar un
+        repositorio de GitHub)
+    12- git pull origin nombre de la rama (traer el código desde internet)
+    13- git push origin nombre de la rama (mandar código a internet)
+
+    
