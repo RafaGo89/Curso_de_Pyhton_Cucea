@@ -19,3 +19,5 @@
 
     --Esto que escribí lo hago desde internet
     
+    https://devhints.io/git-tricks
+    
