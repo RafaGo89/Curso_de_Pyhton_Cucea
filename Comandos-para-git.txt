@@ -21,3 +21,5 @@
     
     --Enlace con algunos comandos de git: https://devhints.io/git-tricks
     
+    --Curso de VS code: https://www.tutorialesprogramacionya.com/herramientas/vscodeya/ 
+    --Cursode Git: https://www.tutorialesprogramacionya.com/herramientas/gitya/
