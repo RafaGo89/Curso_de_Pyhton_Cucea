@@ -6,7 +6,6 @@ cantidadDeManzanas = int (input ("¿Cuántas manzanas se compraron? "))
 
 descuento = 0
 
-
 if nombre.lower() == "rafael" or cantidadDeManzanas == 18:
     descuento = (precioDeLaManzana * cantidadDeManzanas) * 0.20
     descuentoTipo = "%20"
