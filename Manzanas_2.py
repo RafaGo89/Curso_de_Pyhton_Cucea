@@ -6,12 +6,12 @@ descuento = 0
 
 if cantidadDeManzanas > 10:
     descuento = (precioDeLaManzana * cantidadDeManzanas) * 0.10 
-    print (f"Te hicimos un descuento de ${descuento}")
 
 print ("*Las manzanas estan en " + str(precioDeLaManzana))
-#print ("*Las manzanas estan en " , precioDeLaManzana)
-#print (f"*Las manzanas estan en {precioDeLaManzana}")
 
-print ("*Y fueron " + str(cantidadDeManzanas))
+print (f"*Y fueron {cantidadDeManzanas}")
 
-print ("*Vas a pagar " + str(precioDeLaManzana * cantidadDeManzanas - descuento))
+if descuento > 0: 
+    print (f"Pagarías {precioDeLaManzana * cantidadDeManzanas} pero te hicimos un descuento de ${descuento} entonces\n")
+
+print (f"*Vas a pagar {precioDeLaManzana * cantidadDeManzanas - descuento}")
