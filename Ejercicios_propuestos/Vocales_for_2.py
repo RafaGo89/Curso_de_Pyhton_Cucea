@@ -5,22 +5,22 @@ aContador = eContador = iContador = oContador = uContador = False
 print ("\nLas vocales de esa frase son: ")
 
 for vocal in frase: 
-    if "a" in vocal.lower() and aContador == False: #si la letra "a" está "vocal (convertido a minúscula)", verdadero or falso
+    if vocal.lower() == "a" and aContador == False:
         print ("a")
         aContador = True
     
-    elif "e" in vocal.lower() and eContador == False:
+    elif vocal.lower() == "e" and eContador == False:
         print ("e")
         eContador = True
     
-    elif "i" in vocal.lower() and iContador == False:
+    elif vocal.lower() == "i" and iContador == False:
         print ("i")
         iContador = True
     
-    elif "o" in vocal.lower() and oContador == False:
+    elif vocal.lower() == "o" and oContador == False:
         print ("o")
         oContador = True
         
-    elif "u" in vocal.lower() and uContador == False:
+    elif vocal.lower() == "u" and uContador == False:
         print ("u")
         uContador = True
