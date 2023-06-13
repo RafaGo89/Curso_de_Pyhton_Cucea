@@ -1,8 +1,17 @@
-palabra1 = "hulk"
+palabra1 = input ("Ingrese una palabra: ")
 
-palabra2 = "mounthulk"
+palabra2 = input ("Ingrese una palabra: ")
+palabra2Invertida = ""
 
-for primeraLetra in palabra1:
-    for letraBusacada in palabra2:
-        if letraBusacada == primeraLetra:
-            
+if palabra1.lower() in palabra2.lower():
+    print ("Sí")
+
+else:
+    for letra in reversed (palabra2):
+        palabra2Invertida += letra
+    
+    if palabra1.lower() in palabra2Invertida.lower():
+        print ("Sí")
+    
+    else:
+        print ("No")
