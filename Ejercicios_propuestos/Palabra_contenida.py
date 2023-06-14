@@ -1,3 +1,6 @@
+#verifique si una palabra se encuentra contenida en otra, al derecho y al reves e imprima un si,
+#si se encuentra contenida, y un no si no se encuentra contenida
+
 palabra1 = input ("Ingrese una palabra: ")
 
 palabra2 = input ("Ingrese una palabra: ")
