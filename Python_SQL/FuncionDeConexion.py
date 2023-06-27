@@ -1,6 +1,5 @@
 import mysql.connector
 
-
 def conexionBd (opcionBaseDeDatos):
     if opcionBaseDeDatos == 1 :
         #manera local
