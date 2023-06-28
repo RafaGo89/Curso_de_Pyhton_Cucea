@@ -1,10 +1,11 @@
 import mysql.connector
 import FuncionDeConexion
 
-def interfazSql (sql):
+def interfazSql (columna, tabla, parametro):
     try:
         conexion = FuncionDeConexion.conexionBd (1)
         cursor = conexion.cursor()
+        sql = f"SELECT {columna} from {tabla} where name like '{parametro}%';"
         cursor.execute(sql)
         registros = cursor.fetchall()
         
@@ -17,5 +18,6 @@ def interfazSql (sql):
     finally:
         print ("Conexión finalizada")
         conexion.close()
+        cursor.close()
         
-interfazSql("Select title from materia where title like 'e%'")
+interfazSql('name, lastname', 'maestro', 'a')
